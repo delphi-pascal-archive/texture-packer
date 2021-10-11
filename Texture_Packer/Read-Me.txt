@@ -1,0 +1,16 @@
+Bonjour à la communauté CS.
+Cette fois-çi je vous propose un outil de gestion de textures.
+Vous pourrez gérer une banque de textures le plus simplement du monde, en utilisant une unité que j'ai mise au point.
+Les principales limitations sont la taille limitée des textures (ici 128x128), mais vous pouvez l'augmenter jusqu'à 584px/584px, et
+la nécessité de devoir gérer soi-même les différents types d'images (l'unité n'accepte que les bitmaps, mais mon application de
+démonstration prend en charge les bitmaps et les JPEG).
+
+Note: l'application de démonstration n'utilise pas tout le potentiel de l'unité, mais juste une petite partie.
+Vous pouvez modifier TexturePkg.pas et Texture.pas comme vous le désirez pour une utilisation privée uniquement. Pour une
+utilisation commerciale, merci de prendre contact avec moi (Bacterius sur CS, thomas.beneteau@yahoo.fr em@il).
+L'unité gère une console de débogage que vous pouvez solliciter à tout moment à partir de votre application, à l'aide de
+SetConsoleHandles et de WriteInConsole (remarque : une fois la console créée, vous ne pourrez pas la détruire).
+L'application prend en charge la console de débogage avec le paramètre de ligne de commande [-;/] "debug".
+Bonne programmation à vous tous.
+
+Cordialement, Bacterius !
